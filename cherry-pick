@@ -1,1 +1,11 @@
 git cherry-pick commitish --strategy-option theirs
+
+git cherry-pick -m 1 fd9f578
+
+git cherry-pick --strategy=recursive -X theirs {Imported_Commit} => force the branch to accept cherry pick
+ovverride. https://stackoverflow.com/questions/14337945/how-do-i-resolve-cherry-pick-conflicts-using-their-changes
+
+cherry-pick range of commit 
+$ git cherry-pick A..B, -> A is not taked into account, the first commit cherry-piked is A+1 so 
+git cherry-pick A^..B, caret mean consider commit A
+

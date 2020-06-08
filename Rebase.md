@@ -27,3 +27,7 @@ git checkout feature
 Git rebase develop 
 
 in Visual Sudio  Target branch is the Develop branch Source is the current (feature)  branch 
+
+
+
+https://nitaym.github.io/ourstheirs/
